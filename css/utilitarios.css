@@ -1,0 +1,90 @@
+/* Cores */
+:root {
+    --p1: #24BCA5;
+    --p2: #6174FE;
+
+    --c1: #FFFFFF;
+    --c2: #AAAE;
+    --c3: #E6E6E6;
+    --c4: #4D5458;
+}
+
+
+/* Tipografia */
+.titulo-xxl {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.titulo-xl {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.titulo-m {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.txt-l {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.txt-m {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.txt-s {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.botao {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 36px;
+    border-radius: 50px;
+    color: var(--c1);
+    box-shadow: 0.5px 4px 2px 0 rgba(170, 175, 178, 0.4);
+}
+
+.botao1 {
+    background: var(--p1);
+}
+
+.botao2 {
+    background: var(--p2);
+}
+
+.p-1 {
+    color: var(--p1);
+}
+
+.p-2 {
+    color: var(--p2);
+}
+
+.c-1 {
+    color: var(--c1);
+}
+
+.c-2 {
+    color: var(--c2);
+}
+
+.c-3 {
+    color: var(--c3);
+}
+
+.c-4 {
+    color: var(--c4);
+}
