@@ -60,6 +60,11 @@
     height: auto;
 }
 
+.img-mobile {
+    display: none;
+}
+
+
 .trechos-conteudo {
     padding-top: 60px;
 }
@@ -76,35 +81,289 @@
     padding-bottom: 10px;
 }
 
-.main{
+.main {
     padding-bottom: 120px;
 }
 
-.transferencia{
-    display:flex;
+.transferencia {
+    display: flex;
     flex-direction: column;
-    padding-bottom: 100px ;
-}
-.ferramentas{
-    padding-bottom: 150px ;
+    padding-bottom: 100px;
 }
 
-.ferramentas-itens{
+.ferramentas {
+    padding-bottom: 150px;
+}
+
+.ferramentas-itens {
     display: flex;
     text-align: center;
 }
-.ferramentas-itens li{
+
+.ferramentas-itens li {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.ferramentas-itens p{
+.ferramentas-itens p {
     max-width: 32ch;
 }
 
-.parceiros-itens{
+
+.parceiros {
+    padding-bottom: 150px;
+}
+
+.parceiros-itens {
     display: flex;
     gap: 105px;
 }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ios {
+    padding-bottom: 120px;
+}
+
+.footer {
+    display: flex;
+    padding: 25px 120px;
+}
+
+.footer-bg {
+    background: var(--c3);
+}
+
+.footer-redes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 100px;
+    padding-right: 350px;
+}
+
+.footer-logo {
+    padding-right: 50px;
+}
+
+@media(max-width:1200px) {
+    .header {
+        padding-bottom: 70px;
+    }
+
+    .subtitulo {
+        padding-bottom: 70px;
+
+    }
+
+    .subtitulo p {
+        max-width: 60ch;
+
+    }
+
+    .trechos {
+        gap: 40px;
+    }
+
+    .trechos img {
+        width: 500px;
+
+    }
+
+    .trechos-conteudo li+li {
+        padding-top: 20px;
+    }
+
+    .trechos-conteudo {
+        padding-top: 10px;
+    }
+
+    .trechos picture {
+        .img-desktop {
+            display: block;
+        }
+
+        .img-mobile {
+            display: none;
+        }
+    }
+
+    .transferencia img {
+        width: 500px;
+    }
+
+    .ferramentas-itens {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+
+    .parceiros-itens {
+        gap: 40px;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+        padding-right: 0;
+        align-items: center;
+    }
+
+    .footer-logo {
+        padding-right: 0;
+    }
+
+    .trechos picture {
+        .img-mobile {
+            display: none;
+        }
+
+
+        .links {
+            flex-direction: row;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 20px;
+        }
+
+        .titulo-xxl {
+            font-size: 2.25rem;
+        }
+
+        .titulo-xl {
+            font-size: 1.5rem;
+        }
+
+        .titulo-m {
+            font-size: 1.125rem;
+        }
+    }
+}
+
+
+    @media(max-width:800px) {
+        .botoes {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .subtitulo p {
+            max-width: 32ch;
+
+        }
+
+        .subtitulo h2 {
+            max-width: 28ch;
+        }
+
+        .trechos {
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .trechos img {
+            width: 300px;
+
+        }
+
+        .trechos-conteudo {
+            text-align: center;
+
+        }
+
+        .trechos-conteudo p {
+            max-width: 32ch;
+        }
+
+        .trechos picture {
+            .img-desktop {
+                display: none;
+            }
+
+            .img-mobile {
+                display: block;
+            }
+        }
+
+        .trechos-conteudo li+li {
+            padding-top: 40px;
+        }
+
+        .trechos-conteudo {
+            padding-top: 30px;
+        }
+
+        .transferencia img {
+            width: 300px;
+        }
+
+        .ferramentas-itens {
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+        }
+
+
+        .parceiros-itens {
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            align-items: center;
+
+        }
+
+
+        .links {
+            flex-direction: column;
+
+        }
+
+        .titulo-xxl {
+            font-size: 1.875rem;
+        }
+
+        .titulo-xl {
+            font-size: 1.375rem;
+        }
+
+        .titulo-m {
+            font-size: 1.0625rem;
+        }
+
+        .txt-l {
+            font-size: 0.9375rem;
+        }
+
+        .txt-m {
+            font-size: 0.8125rem;
+        }
+    }
