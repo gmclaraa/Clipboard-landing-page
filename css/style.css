@@ -45,12 +45,10 @@
     flex-direction: column;
 }
 
-
 .subtitulo p {
     max-width: 80ch;
     padding-top: 20px;
 }
-
 
 .trechos {
     display: flex;
@@ -78,8 +76,35 @@
     padding-bottom: 10px;
 }
 
+.main{
+    padding-bottom: 120px;
+}
+
 .transferencia{
     display:flex;
     flex-direction: column;
+    padding-bottom: 100px ;
+}
+.ferramentas{
+    padding-bottom: 150px ;
 }
 
+.ferramentas-itens{
+    display: flex;
+    text-align: center;
+}
+.ferramentas-itens li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ferramentas-itens p{
+    max-width: 32ch;
+}
+
+.parceiros-itens{
+    display: flex;
+    gap: 105px;
+}
